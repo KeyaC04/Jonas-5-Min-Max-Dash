@@ -1,8 +1,8 @@
-dash>=2.14
-plotly>=5.18
-pandas>=2.0
-numpy>=1.24
-openpyxl>=3.1
-torch>=2.0
-gunicorn
-diskcache
+dash==2.17.0
+pandas==2.2.2
+numpy==1.26.4
+plotly==5.22.0
+diskcache==5.6.3
+openpyxl==3.1.2
+torch==2.2.2 ; platform_system != "Windows"
+gunicorn==21.2.0
