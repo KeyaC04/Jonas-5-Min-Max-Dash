@@ -541,6 +541,7 @@ def apply_constraints_post(df_with_nn: pd.DataFrame, rules_df: Optional[pd.DataF
 # DASH APP
 # ==============================
 app = Dash(__name__, background_callback_manager=background_callback_manager)
+server = app.server
 app.title = "Jonas — Min/Max"
 app.server.max_content_length = 128 * 1024 * 1024
 
